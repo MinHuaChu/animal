@@ -1,0 +1,27 @@
+*{
+    border: 0px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 200px;
+    margin: 10px auto 0 auto;
+    display: block;
+}
+
+nav{
+    margin: 30px auto;
+    width: 730px;
+    height: 70px;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 5px 20px;
+    text-align: center;
+}
