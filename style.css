@@ -7,32 +7,17 @@
 
 header {
   background-color: #f9e9cf;
-  height: 100px;
-  position: relative;
-}
-
-.logo {
-  width: 100px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-#www {
+  height: 1000px;
   width: 1440px;
-  height: 740px;
 }
 
-.eee {
+#aaa {
   width: 1440px;
   height: 740px;
   background-color: #f4b798;
 }
 
-.eee .eee1 {
+#aaa #bbb {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -42,24 +27,24 @@ header {
   margin: 100px auto;
 }
 
-.eee .eee1 .rrr p {
+#aaa #bbb .ccc p {
   font-size: 20px;
   width: 500px;
   height: 400px;
   color: black;
 }
 
-.eee .eee1 .rrr img {
+#aaa #bbb .ccc img {
   width: 500px;
 }
 
-.fff {
+#ddd {
   width: 1440px;
   height: 740px;
   background-color: #a0c7e0;
 }
 
-.fff .fff1 {
+#ddd #eee {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -69,42 +54,48 @@ header {
   margin: 100px auto;
 }
 
-.fff .fff1 .ggg p {
+#ddd #eee .fff p {
   font-size: 20px;
   width: 500px;
   height: 400px;
   color: black;
 }
 
-.fff .fff1 .ggg img {
+#ddd #eee .fff img {
   width: 500px;
 }
 
-.hhh {
-  height: 80vh;
-  background-color: #d98251;
+#ggg {
+  width: 1440px;
+  height: 740px;
+  background-color: #f4b798;
+}
+
+#jjj {
+  height: 740px;
+  background-color: #a0c7e0;
   padding-top: 90px;
 }
 
-.hhh .sss {
+#jjj .sss {
   height: 400px;
   width: 400px;
   margin: 70px auto;
 }
 
-.hhh .sss h1 {
+#jjj .sss h1 {
   font-size: 80px;
   text-align: center;
   padding-top: 20px;
 }
 
-.hhh .sss p {
+#jjj .sss p {
   text-align: center;
   font-size: 20px;
   margin-top: 10px;
 }
 
-.hhh .sss .mmm {
+#jjj .sss .mmm {
   display: block;
   margin: 20px auto;
   text-align: center;

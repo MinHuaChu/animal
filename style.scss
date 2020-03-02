@@ -4,38 +4,24 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+// 頁首
 header{
     background-color: rgb(249, 233, 207);
-    height: 100px;
-    position: relative;
-}
-.logo{
-    width: 100px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;    
-}
-
-#www{
+    height: 1000px;
     width: 1440px;
-    height: 740px;
 }
-
-
-.eee{
+// 動機
+#aaa{
     width: 1440px;
     height: 740px;
     background-color:rgb(244, 183, 152);
-    .eee1{
+    #bbb{
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-gap:95px;
         width: 1100px;
         margin: 100px auto;
-        .rrr{
+        .ccc{
             p{
                 font-size: 20px;
                 width: 500px;
@@ -49,17 +35,18 @@ header{
     }
 }
 
-.fff{
+// 理念
+#ddd{
     width: 1440px;
     height: 740px;
     background-color:rgb(160,199,224);
-    .fff1{
+    #eee{
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-gap:95px;
         width: 1100px;
         margin: 100px auto;
-        .ggg{
+        .fff{
             p{
                 font-size: 20px;
                 width: 500px;
@@ -73,66 +60,32 @@ header{
     }
 }
 
-.hhh{
-    height: 80vh;
-    background-color: rgb(217, 130, 81);
-    padding-top: 90px;
-    .sss{
-        height: 400px;
-        width: 400px;
-        margin: 70px auto;
-        // background-color: pink;
-        h1{
-            font-size: 80px;
-            text-align: center;
-            padding-top: 20px;
-        }
-        p{
-            text-align: center;
-            font-size: 20px;
-            margin-top: 10px;
-        }
-        .mmm{
-            display: block;
-            margin: 20px auto;
-            text-align: center;
-            text-decoration: none;
-            color:black;
-            background-color: #fff;
-            width: 200px;
-            font-size: 30px;
-            border-radius: 10px;
-        }
-    }
-}
-
-.ppp{
+// 繪本與週邊
+#ggg{
     width: 1440px;
     height: 740px;
-    background-color:rgb(80, 101, 116);
-    .xxx{
+    background-color:rgb(244, 183, 152);
 
-        h1{
+}
 
-        }
-        p{
-
-        }
-    }
-
-    .ooo{
+// 知識分享
+#jjj{
+    height: 740px;
+    background-color: rgb(160,199,224);
+    #kkk{
+        height: 100px;
+        width: 400px;
+        margin: 10px auto;
+        background-color: pink;
+    #lll{
         display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-gap:95px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:30px;
         width: 1100px;
         margin: 100px auto;
-        .jjj{
-            p{
-                font-size: 20px;
-                width: 500px;
-                height: 400px;
-                color: #FFDFBA;
-            }
+        .mmm{
+            width: 150px;
+            height: 400px;
         }
     }
 }
