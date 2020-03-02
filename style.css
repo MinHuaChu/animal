@@ -74,60 +74,39 @@ header {
 #jjj {
   height: 740px;
   background-color: #a0c7e0;
-  padding-top: 90px;
 }
 
-#jjj .sss {
-  height: 400px;
-  width: 400px;
-  margin: 70px auto;
+#jjj h2 {
+  display: inline-block;
+  margin: 0 auto;
 }
 
-#jjj .sss h1 {
-  font-size: 80px;
-  text-align: center;
-  padding-top: 20px;
+#jjj p {
+  display: inline-block;
+  margin: 0 auto;
 }
 
-#jjj .sss p {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-#jjj .sss .mmm {
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  background-color: #fff;
-  width: 200px;
-  font-size: 30px;
-  border-radius: 10px;
-}
-
-.ppp {
-  width: 1440px;
-  height: 740px;
-  background-color: #506574;
-}
-
-.ppp .ooo {
+#jjj #lll {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 95px;
   width: 1100px;
-  margin: 100px auto;
+  margin: 300px auto 0 auto;
 }
 
-.ppp .ooo .jjj p {
-  font-size: 20px;
-  width: 500px;
-  height: 400px;
-  color: #FFDFBA;
+#jjj #lll .mmm {
+  height: 300px;
+}
+
+#jjj #lll .mmm h3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#jjj #lll .mmm p {
+  margin-top: 30px;
 }
 
 footer {
