@@ -1,11 +1,11 @@
 *{
-    border: 0px solid black;
+    border: 1px solid black;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: rgb(235, 215, 176);
+    background-color: rgb(249, 233, 207);
     height: 100px;
     position: relative;
 }
@@ -20,27 +20,27 @@ header{
 }
 
 #www{
-    width: 1432px;
-    height: 700px;
+    width: 1440px;
+    height: 740px;
 }
 
 
 .eee{
-    height: 80vh;
-    background-color:rgb(217, 130, 81);
-    padding-top:180px; 
+    width: 1440px;
+    height: 740px;
+    background-color:rgb(244, 183, 152);
     .eee1{
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-gap:95px;
         width: 1100px;
-        margin: 0 auto;
+        margin: 100px auto;
         .rrr{
             p{
                 font-size: 20px;
                 width: 500px;
                 height: 400px;
-                color: #FFDFBA;
+                color: black;
             }
             img{
                 width: 500px;
@@ -50,21 +50,21 @@ header{
 }
 
 .fff{
-    height: 80vh;
-    background-color:rgb(80, 101, 116);
-    padding-top:180px; 
+    width: 1440px;
+    height: 740px;
+    background-color:rgb(160,199,224);
     .fff1{
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-gap:95px;
         width: 1100px;
-        margin: 0 auto;
+        margin: 100px auto;
         .ggg{
             p{
                 font-size: 20px;
                 width: 500px;
                 height: 400px;
-                color: #FFDFBA;
+                color: black;
             }
             img{
                 width: 500px;
@@ -102,6 +102,37 @@ header{
             width: 200px;
             font-size: 30px;
             border-radius: 10px;
+        }
+    }
+}
+
+.ppp{
+    width: 1440px;
+    height: 740px;
+    background-color:rgb(80, 101, 116);
+    .xxx{
+
+        h1{
+
+        }
+        p{
+
+        }
+    }
+
+    .ooo{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap:95px;
+        width: 1100px;
+        margin: 100px auto;
+        .jjj{
+            p{
+                font-size: 20px;
+                width: 500px;
+                height: 400px;
+                color: #FFDFBA;
+            }
         }
     }
 }
