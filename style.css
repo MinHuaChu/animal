@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  border: 0px solid black;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +24,11 @@ header {
       grid-template-columns: 1fr 1fr;
   grid-gap: 95px;
   width: 1100px;
-  margin: 100px auto;
+  margin: 0 auto;
+}
+
+#aaa #bbb .ccc {
+  padding-top: 120px;
 }
 
 #aaa #bbb .ccc p {
@@ -51,7 +55,11 @@ header {
       grid-template-columns: 1fr 1fr;
   grid-gap: 95px;
   width: 1100px;
-  margin: 100px auto;
+  margin: 0 auto;
+}
+
+#ddd #eee .fff {
+  padding-top: 120px;
 }
 
 #ddd #eee .fff p {
@@ -80,7 +88,8 @@ header {
   display: block;
   margin: 0 auto;
   text-align: center;
-  margin-top: 100px;
+  padding-top: 100px;
+  font-size: 40px;
 }
 
 #jjj p {
@@ -97,7 +106,7 @@ header {
       grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 95px;
   width: 1100px;
-  margin: 200px auto 0 auto;
+  margin: 100px auto 0 auto;
 }
 
 #jjj #lll .mmm {
@@ -111,6 +120,50 @@ header {
 
 #jjj #lll .mmm p {
   margin-top: 30px;
+}
+
+#nnn {
+  height: 740px;
+  background-color: #f4b798;
+}
+
+#nnn h1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+#nnn p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#nnn #ppp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 1300px;
+  margin: 100px auto 0 auto;
+}
+
+#nnn #ppp .qqq {
+  height: 300px;
+}
+
+#nnn #ppp .qqq img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#nnn #ppp .qqq .rrr p {
+  margin-top: 10px;
 }
 
 footer {
