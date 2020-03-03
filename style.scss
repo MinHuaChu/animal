@@ -1,5 +1,5 @@
 *{
-    border: 1px solid black;
+    border: 0px solid black;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +9,14 @@ header{
     background-color: rgb(249, 233, 207);
     height: 1000px;
     width: 1440px;
+    nav{
+        ul{
+            li{
+                display: inline-block;
+                text-decoration: none;
+            }
+        }
+    }
 }
 // 動機
 #aaa{
@@ -22,7 +30,7 @@ header{
         width: 1100px;
         margin: 0 auto;
         .ccc{
-            padding-top: 120px;
+            padding-top: 210px;
             p{
                 font-size: 20px;
                 width: 500px;
@@ -48,7 +56,7 @@ header{
         width: 1100px;
         margin: 0 auto;
         .fff{
-            padding-top: 120px;
+            padding-top: 210px;
             p{
                 font-size: 20px;
                 width: 500px;
