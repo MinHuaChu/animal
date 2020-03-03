@@ -1,5 +1,5 @@
 * {
-  border: 0px solid black;
+  border: 1px solid black;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,9 +11,25 @@ header {
   width: 1440px;
 }
 
+header nav ul {
+  text-align: right;
+}
+
 header nav ul li {
   display: inline-block;
+  margin: 50px 40px 0 0;
+}
+
+header nav ul li a {
   text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  color: orange;
+  font-size: 20px;
 }
 
 #aaa {
@@ -172,10 +188,10 @@ header nav ul li {
 }
 
 footer {
-  height: 150px;
+  line-height: 100px;
   text-align: center;
   line-height: 1.5;
-  font-size: 30px;
+  font-size: 18px;
   background-color: #ebd7b0;
 }
 /*# sourceMappingURL=style.css.map */
