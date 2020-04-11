@@ -1,5 +1,5 @@
 *{
-    border: 1px solid black;
+    border: 0px solid black;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,9 +44,11 @@ header{
             padding-top: 210px;
             p{
                 font-size: 20px;
+                line-height: 2;
                 width: 500px;
-                height: 400px;
+                height: 300px;
                 color: black;
+                padding-top: 100px;
             }
             img{
                 width: 500px;
@@ -71,8 +73,10 @@ header{
             p{
                 font-size: 20px;
                 width: 500px;
-                height: 400px;
+                height: 300px;
                 color: black;
+                padding-top: 100px;
+                line-height: 2;
             }
             img{
                 width: 500px;
@@ -168,9 +172,10 @@ header{
 }
 
 footer{
-    line-height: 100px;
+    height: 70px;
     text-align: center;
     line-height: 1.5;
+    padding-top: 30px;
     font-size: 18px;
     background-color: rgb(235, 215, 176);
 }

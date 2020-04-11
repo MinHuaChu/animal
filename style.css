@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  border: 0px solid black;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -54,9 +54,11 @@ header nav ul li a:hover {
 
 #aaa #bbb .ccc p {
   font-size: 20px;
+  line-height: 2;
   width: 500px;
-  height: 400px;
+  height: 300px;
   color: black;
+  padding-top: 100px;
 }
 
 #aaa #bbb .ccc img {
@@ -86,8 +88,10 @@ header nav ul li a:hover {
 #ddd #eee .fff p {
   font-size: 20px;
   width: 500px;
-  height: 400px;
+  height: 300px;
   color: black;
+  padding-top: 100px;
+  line-height: 2;
 }
 
 #ddd #eee .fff img {
@@ -188,9 +192,10 @@ header nav ul li a:hover {
 }
 
 footer {
-  line-height: 100px;
+  height: 70px;
   text-align: center;
   line-height: 1.5;
+  padding-top: 30px;
   font-size: 18px;
   background-color: #ebd7b0;
 }
