@@ -35,7 +35,7 @@ header nav ul li a:hover {
 #aaa {
   width: 1440px;
   height: 740px;
-  background-color: #f4b798;
+  background-color: #ffdede;
 }
 
 #aaa #bbb {
@@ -68,7 +68,7 @@ header nav ul li a:hover {
 #ddd {
   width: 1440px;
   height: 740px;
-  background-color: #a0c7e0;
+  background-color: #f7f3ce;
 }
 
 #ddd #eee {
@@ -101,12 +101,12 @@ header nav ul li a:hover {
 #ggg {
   width: 1440px;
   height: 740px;
-  background-color: #f4b798;
+  background-color: #c5ecbe;
 }
 
 #jjj {
   height: 740px;
-  background-color: #a0c7e0;
+  background-color: #f7f3ce;
 }
 
 #jjj h1 {
@@ -149,7 +149,7 @@ header nav ul li a:hover {
 
 #nnn {
   height: 740px;
-  background-color: #f4b798;
+  background-color: #c5ecbe;
 }
 
 #nnn h1 {
@@ -181,6 +181,19 @@ header nav ul li a:hover {
   height: 300px;
 }
 
+#nnn #ppp .qqq a {
+  text-align: center;
+}
+
+#nnn #ppp .qqq a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#nnn #ppp .qqq a:visited {
+  color: black;
+}
+
 #nnn #ppp .qqq img {
   width: 70%;
   display: block;
@@ -197,6 +210,6 @@ footer {
   line-height: 1.5;
   padding-top: 30px;
   font-size: 18px;
-  background-color: #ebd7b0;
+  background-color: #4797b1;
 }
 /*# sourceMappingURL=style.css.map */

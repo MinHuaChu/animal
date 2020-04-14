@@ -33,7 +33,7 @@ header{
 #aaa{
     width: 1440px;
     height: 740px;
-    background-color:rgb(244, 183, 152);
+    background-color:#ffdede;
     #bbb{
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -61,7 +61,7 @@ header{
 #ddd{
     width: 1440px;
     height: 740px;
-    background-color:rgb(160,199,224);
+    background-color:#f7f3ce;
     #eee{
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -89,14 +89,14 @@ header{
 #ggg{
     width: 1440px;
     height: 740px;
-    background-color:rgb(244, 183, 152);
+    background-color:#c5ecbe;
 
 }
 
 // 知識分享
 #jjj{
     height: 740px;
-    background-color: rgb(160,199,224);
+    background-color: #f7f3ce;
     h1{
         display: block;
         margin: 0 auto;
@@ -133,7 +133,7 @@ header{
 // 相關連結
 #nnn{
     height: 740px;
-    background-color:rgb(244, 183, 152);
+    background-color:#c5ecbe;
     h1{
         display: block;
         margin: 0 auto;
@@ -155,6 +155,16 @@ header{
         margin: 100px auto 0 auto;
         .qqq{
             height: 300px;
+            a{
+                text-align: center;
+            }
+            a:link{
+                text-decoration: none;
+                color: black;
+            }
+            a:visited{
+                color: black;
+            }
             img{
                 width: 70%;
                 display: block;
@@ -177,5 +187,5 @@ footer{
     line-height: 1.5;
     padding-top: 30px;
     font-size: 18px;
-    background-color: rgb(235, 215, 176);
+    background-color: #4797b1;
 }
