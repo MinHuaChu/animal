@@ -7,7 +7,7 @@
 // 頁首
 header{
     background-image: url(first.png);
-    height: 1000px;
+    height: 935px;
     width: 1440px;
     nav{
         ul{
@@ -33,7 +33,7 @@ header{
 #aaa{
     width: 1440px;
     height: 740px;
-    background-color:#ffdede;
+    background-image: url(second.jpg);
     #bbb{
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -61,7 +61,7 @@ header{
 #ddd{
     width: 1440px;
     height: 740px;
-    background-color:#f7f3ce;
+    background-image: url(second.jpg);
     #eee{
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -89,14 +89,14 @@ header{
 #ggg{
     width: 1440px;
     height: 740px;
-    background-color:#c5ecbe;
+    background-image: url(second.jpg);
 
 }
 
 // 知識分享
 #jjj{
     height: 740px;
-    background-image: url(1.jpg);
+    background-image: url(second.jpg);
     h1{
         display: block;
         margin: 0 auto;

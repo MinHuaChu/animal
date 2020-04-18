@@ -7,7 +7,7 @@
 
 header {
   background-image: url(first.png);
-  height: 1000px;
+  height: 935px;
   width: 1440px;
 }
 
@@ -35,7 +35,7 @@ header nav ul li a:hover {
 #aaa {
   width: 1440px;
   height: 740px;
-  background-color: #ffdede;
+  background-image: url(second.jpg);
 }
 
 #aaa #bbb {
@@ -68,7 +68,7 @@ header nav ul li a:hover {
 #ddd {
   width: 1440px;
   height: 740px;
-  background-color: #f7f3ce;
+  background-image: url(second.jpg);
 }
 
 #ddd #eee {
@@ -101,12 +101,12 @@ header nav ul li a:hover {
 #ggg {
   width: 1440px;
   height: 740px;
-  background-color: #c5ecbe;
+  background-image: url(second.jpg);
 }
 
 #jjj {
   height: 740px;
-  background-image: url(1.jpg);
+  background-image: url(second.jpg);
 }
 
 #jjj h1 {
