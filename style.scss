@@ -19,6 +19,10 @@ header{
                     text-decoration: none;
                     color: black;
                     font-size: 20px;
+                    transition-duration: 1s;
+                    transition-property:width;
+                    transition-timing-function: ease;
+                    transition-delay: 2s;
                 }
                 a:hover{
                     text-decoration: none;
